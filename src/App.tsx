@@ -40,7 +40,7 @@ function App() {
 
     <button onClick={handleSubmit}> Submit </button>
 
-    {result && (<pre>{JSON.stringify(result, null, 2)}</pre>)}
+    {result && (<pre style={{ whiteSpace: "pre-wrap" }}>{JSON.stringify(result, null, 2)}</pre>)}
 
   </div>;
 }
